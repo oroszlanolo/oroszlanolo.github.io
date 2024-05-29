@@ -262,10 +262,12 @@ main {
             max-width: $w;
         }
     }
-
-    button {
+    a {
+        display: block;
+        width: fit-content;
         margin-top: 1.5rem;
     }
+
 }
 
 .about-introduction {
